@@ -200,6 +200,17 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
+/* Active */
+.hero button:hover,
+.hero button:focus {
+  background-color: var(--ocean);
+}
+.navigation a:hover,
+.navigation a:focus,
+.address a:hover,
+.address a:focus {
+  color: var(--ocean);
+}
 /* Section 1 */
 .advantages {
   padding: 120px 0;
@@ -216,24 +227,16 @@ ul {
 .advantages-item {
   width: calc((100% - 3 * 24px) / 4);
 }
-.advantages-item::before {
-  content: '';
-  display: block;
-  margin-bottom: 8px;
+
+.icon-advantages {
+  padding: 24px 100px;
+  width: 264px;
   height: 112px;
+  margin-bottom: 8px;
   background-color: var(--cloud);
   border-radius: 4px;
-  background-repeat: no-repeat;
-  background-position: center;
 }
-.icon-antenna::before {
-}
-.icon-clock::before {
-}
-.icon-diagram::before {
-}
-.icon-astronaut::before {
-}
+
 /* Section 2 */
 .our-works {
   padding-bottom: 120px;
@@ -299,22 +302,37 @@ ul {
   background-color: var(--iris);
   border-radius: 50%;
 }
+.team-link:hover,
+.team-link:focus {
+  background-color: var(--ocean);
+}
 .link-icon {
   width: 16px;
   height: 16px;
   fill: var(--white);
 }
-
-/* Active */
-.hero button:hover,
-.hero button:focus {
-  background-color: var(--ocean);
+/* Section 4 */
+.customers {
+  padding: 120px 0;
 }
-.navigation a:hover,
-.navigation a:focus,
-.address a:hover,
-.address a:focus {
-  color: var(--ocean);
+.customers .title-two {
+  margin-bottom: 72px;
+}
+.list-customers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.customers-item {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 168px;
+  height: 88px;
+}
+.customers-icon {
+  width: 104px;
+  height: 56px;
 }
 /* Footer */
 .footer {
