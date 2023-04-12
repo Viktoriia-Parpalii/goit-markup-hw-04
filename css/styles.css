@@ -151,9 +151,20 @@ ul {
 
 /* Hero */
 .hero {
-  background-color: var(--navy-blue);
   text-align: center;
   padding: 188px 0;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--navy-blue);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .hero-title {
   margin-left: auto;
@@ -205,7 +216,24 @@ ul {
 .advantages-item {
   width: calc((100% - 3 * 24px) / 4);
 }
-
+.advantages-item::before {
+  content: '';
+  display: block;
+  margin-bottom: 8px;
+  height: 112px;
+  background-color: var(--cloud);
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon-antenna::before {
+}
+.icon-clock::before {
+}
+.icon-diagram::before {
+}
+.icon-astronaut::before {
+}
 /* Section 2 */
 .our-works {
   padding-bottom: 120px;
@@ -253,6 +281,28 @@ ul {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+}
+/**
+  |============================
+  | Social networks
+  |============================
+*/
+.team-list {
+  margin-top: 8px;
+}
+.team-link {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--iris);
+  border-radius: 50%;
+}
+.link-icon {
+  width: 16px;
+  height: 16px;
+  fill: var(--white);
 }
 
 /* Active */
@@ -317,6 +367,8 @@ ul {
   background-color: var(--ocean);
   color: var(--white);
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-filter {
@@ -356,4 +408,8 @@ ul {
   border-bottom: 1px solid var(--border);
   border-right: 1px solid var(--border);
   padding: 32px 16px;
+}
+.description:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
