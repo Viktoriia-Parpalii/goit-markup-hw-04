@@ -379,6 +379,10 @@ ul {
 .footer-link:focus {
   background-color: var(--green);
 }
+.footer > .container {
+  display: flex;
+  gap: 120px;
+}
 /**
   |============================
   | Portfolio
