@@ -377,6 +377,7 @@ ul {
 footer .footer-container {
   display: flex;
   gap: 120px;
+  align-items: baseline;
 }
 .footer-link:hover,
 .footer-link:focus {
