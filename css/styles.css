@@ -365,16 +365,13 @@ ul {
 .social-media {
   display: flex;
 }
-/* .social-link {
-  width: 40px;
-  height: 40px;
-
-  justify-content: center;
-  align-items: center;
-  background-color: var(--iris);
-  border-radius: 50%;
+.team-link .footer-link {
+  background-color: var(--light-slate);
 }
-
+.team-link .footer-link:hover,
+.team-link .footer-link:focus {
+  background-color: var(--green);
+}
 /**
   |============================
   | Portfolio
