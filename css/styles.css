@@ -368,8 +368,8 @@ ul {
 .team-link .footer-link {
   background-color: var(--light-slate);
 }
-.team-link .footer-link:hover,
-.team-link .footer-link:focus {
+.team-link.footer-link:hover,
+.team-link.footer-link:focus {
   background-color: var(--green);
 }
 /**
