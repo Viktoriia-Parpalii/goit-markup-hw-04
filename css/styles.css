@@ -374,15 +374,15 @@ ul {
   display: flex;
   gap: 16px;
 }
-
-.footer-link:hover,
-.footer-link:focus {
-  background-color: var(--green);
-}
 .footer-container {
   display: flex;
   gap: 120px;
 }
+.footer-link:hover,
+.footer-link:focus {
+  background-color: var(--green);
+}
+
 /**
   |============================
   | Portfolio
