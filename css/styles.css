@@ -341,7 +341,7 @@ ul {
 }
 .customers-icon:hover,
 .customers-icon:focus {
-  color: var(--ocean);
+  fill: var(--ocean);
 }
 /* Footer */
 .footer {
@@ -379,7 +379,7 @@ ul {
 .footer-link:focus {
   background-color: var(--green);
 }
-.footer.container {
+.footer-containe {
   display: flex;
   gap: 120px;
 }
