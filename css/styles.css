@@ -330,9 +330,18 @@ ul {
   width: 168px;
   height: 88px;
 }
+.customers-item:hover,
+.customers-item:focus {
+  border: 1px solid var(--ocean);
+}
 .customers-icon {
   width: 104px;
   height: 56px;
+  /* fill: #8e8f99; */
+}
+.customers-icon:hover,
+.customers-icon:focus {
+  color: var(--ocean);
 }
 /* Footer */
 .footer {
@@ -353,7 +362,18 @@ ul {
   font-size: 16px;
   line-height: 1.5;
 }
-
+.social-link {
+  width: 40px;
+  height: 40px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--iris);
+  border-radius: 50%;
+}
+.social-media {
+  display: flex;
+}
 /**
   |============================
   | Portfolio
@@ -427,7 +447,7 @@ ul {
   border-right: 1px solid var(--border);
   padding: 32px 16px;
 }
-.description:hover {
+.portfolio-icon:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
