@@ -290,10 +290,10 @@ ul {
   | Social networks
   |============================
 */
-.team-list {
+.social-media {
   margin-top: 8px;
 }
-.team-link {
+.networks-link {
   width: 40px;
   height: 40px;
   display: flex;
@@ -302,8 +302,8 @@ ul {
   background-color: var(--iris);
   border-radius: 50%;
 }
-.team-link:hover,
-.team-link:focus {
+.networks-link:hover,
+.networks-link:focus {
   background-color: var(--ocean);
 }
 .link-icon {
@@ -324,7 +324,7 @@ ul {
   gap: 24px;
 }
 .customers-item {
-  border: 1px solid #8e8f99;
+  border: 1px solid var(--light-slate);
   border-radius: 4px;
   padding: 16px 32px;
   width: 168px;
@@ -370,14 +370,18 @@ ul {
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
-.social-media {
+.footer .social-media {
   display: flex;
   gap: 16px;
 }
-footer .footer-container {
+.footer .footer-container {
   display: flex;
   gap: 120px;
   align-items: baseline;
+}
+.footer .link-icon {
+  width: 24px;
+  height: 24px;
 }
 .footer-link:hover,
 .footer-link:focus {
