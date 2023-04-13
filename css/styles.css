@@ -362,7 +362,10 @@ ul {
   font-size: 16px;
   line-height: 1.5;
 }
-.social-link {
+.social-media {
+  display: flex;
+}
+/* .social-link {
   width: 40px;
   height: 40px;
 
@@ -371,9 +374,7 @@ ul {
   background-color: var(--iris);
   border-radius: 50%;
 }
-.social-media {
-  display: flex;
-}
+
 /**
   |============================
   | Portfolio
