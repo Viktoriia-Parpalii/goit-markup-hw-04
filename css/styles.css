@@ -365,14 +365,13 @@ ul {
 .social-link {
   width: 40px;
   height: 40px;
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--iris);
   border-radius: 50%;
 }
 .social-media {
-  display: flex;
 }
 /**
   |============================
