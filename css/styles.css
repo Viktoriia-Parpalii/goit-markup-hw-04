@@ -227,17 +227,24 @@ ul {
   flex-wrap: wrap;
   gap: 24px;
 }
+.advantages-wrapper {
+  background-color: var(--cloud);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  margin-bottom: 8px;
+}
 .advantages-item {
   width: calc((100% - 3 * 24px) / 4);
 }
-
+/* 
 .icon-advantages {
   padding: 24px 100px;
-
-  margin-bottom: 8px;
   background-color: var(--cloud);
   border-radius: 4px;
-}
+} */
 
 /* Section 2 */
 .our-works {
