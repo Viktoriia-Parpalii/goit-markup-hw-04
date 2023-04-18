@@ -99,6 +99,7 @@ ul {
 }
 
 .logo {
+  display: inline-block;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -106,7 +107,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-  display: inline-block;
 }
 .logo-studio {
   color: var(--navy-blue);
@@ -120,12 +120,11 @@ ul {
 }
 
 .navigation a {
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: var(--navy-blue);
-
-  padding: 24px 0;
 }
 .address {
   font-style: normal;
@@ -154,11 +153,11 @@ ul {
 
 /* Hero */
 .hero {
-  text-align: center;
   padding: 188px 0;
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
   background-color: var(--navy-blue);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -228,23 +227,18 @@ ul {
   gap: 24px;
 }
 .advantages-wrapper {
-  background-color: var(--cloud);
-  border-radius: 4px;
   display: flex;
+  margin-bottom: 8px;
   align-items: center;
   justify-content: center;
   height: 112px;
-  margin-bottom: 8px;
+
+  background-color: var(--cloud);
+  border-radius: 4px;
 }
 .advantages-item {
   width: calc((100% - 3 * 24px) / 4);
 }
-/* 
-.icon-advantages {
-  padding: 24px 100px;
-  background-color: var(--cloud);
-  border-radius: 4px;
-} */
 
 /* Section 2 */
 .our-works {
@@ -277,8 +271,8 @@ ul {
 }
 
 .team-icon {
-  background-color: var(--white);
   width: calc((100% - 3 * 24px) / 4);
+  background-color: var(--white);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
@@ -303,9 +297,13 @@ ul {
   margin-top: 8px;
   justify-content: center;
 }
-.networks-link {
+.social-list {
   width: 40px;
   height: 40px;
+}
+.networks-link {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -334,16 +332,18 @@ ul {
 }
 .customers-item {
   width: calc((100% - 120px) / 6);
+  height: 88px;
 }
 .customers-link {
-  border: 1px solid var(--light-slate);
-  border-radius: 4px;
   padding: 16px 32px;
   display: flex;
-  height: 88px;
+  height: 100%;
+  width: 100%;
   justify-content: center;
   align-items: center;
   color: var(--icons-customers);
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
 }
 .customers-icon {
   fill: currentColor;
@@ -379,12 +379,12 @@ ul {
   line-height: 1.5;
 }
 .title-social-media {
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: var(--white);
   letter-spacing: 0.02em;
-  margin-bottom: 16px;
 }
 .footer .social-media {
   display: flex;
@@ -469,10 +469,10 @@ ul {
   color: var(--slate);
 }
 .description {
+  padding: 32px 16px;
   border-left: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
   border-right: 1px solid var(--border);
-  padding: 32px 16px;
 }
 .portfolio-link:hover,
 .portfolio-link:focus {
